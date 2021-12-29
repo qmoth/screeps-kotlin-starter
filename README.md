@@ -19,7 +19,7 @@ this bot is quite dumb. Below are a few things you could improve that will also 
 * make the upgrader transport 50 energy per run (instead of only 2)
 * harvest from more than just one Source
 * harvest from the closest Source first
-* don't build the extensions at hardcoded locations
+* don't build the extensions at hardcoded locations!
 
 ### Code upload
 
