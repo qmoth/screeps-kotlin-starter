@@ -8,8 +8,9 @@ import screeps.utils.memory.memory
 * i.e. creep.memory.building = true */
 
 /* Creep.memory */
-var CreepMemory.building: Boolean by memory { false }
-var CreepMemory.pause: Int by memory { 0 }
+var CreepMemory.reachedFullCapacity: Boolean by memory { false }
+var RoomMemory.sourceObjectIds: Array<String> by memory { arrayOf() } // <--default value
+
 
 
 /* Rest of the persistent memory structures.
