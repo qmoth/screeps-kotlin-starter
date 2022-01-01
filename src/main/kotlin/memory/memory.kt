@@ -9,7 +9,7 @@ import screeps.utils.memory.memory
 
 /* Creep.memory */
 var CreepMemory.reachedFullCapacity: Boolean by memory { false }
-
+var RoomMemory.sourceObjectIds: Array<String> by memory { arrayOf() } // <--default value
 
 
 
